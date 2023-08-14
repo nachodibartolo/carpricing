@@ -1,0 +1,67 @@
+body{
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+}
+
+.navbar ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #FFF6E0;
+   border-style: solid;
+   border-radius: 15px;
+ }
+
+.nombreempresa{
+   float: left;
+}
+
+.logoempresa{
+   height: 15px;
+   margin-right: 8px;
+}
+
+.item{
+   float: right;
+}
+ 
+.navbar a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ /* Change the link color to #111 (black) on hover */
+.navbar a:hover {
+   background-color: #D8D9DA;
+ }
+
+#latestnews{
+   display: grid;
+   grid-template-rows: minmax(100px, 200px) minmax(100px, 200px) minmax(100px, 200px);
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   margin-top: 50px;
+   margin: 50px 100px;
+   row-gap: 20px;
+   
+}
+
+.grid-izq{
+   grid-column: span 3;
+   background-color: #61677A;
+   display: flex;
+   justify-content: center;
+   border-radius: 5px;
+}
+
+.grid-der{
+   grid-column-start: 3;
+   grid-column-end: 6;
+   background-color: #61677A;
+   display: flex;
+   justify-content: center;
+   border-radius: 5px;
+}
